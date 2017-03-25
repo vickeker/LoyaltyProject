@@ -1,0 +1,12 @@
+Facebook test token for LoyaltyApp
+
+User Token: 
+EAAaGSxM2ossBAMUdkOIkZACjTRjLbzcN1PmbZAEl1ywCb9zJRCHzlwBvMNYHiM22BU3J70bit89XHZCzZAIdsRtZCz1i3rw1qOpJ0kajcAFzkIRcGP1u0MOdJXJBiKZBnWRU0x7x8QS5dtVY12moksvfkEniRwl4cZAGPachsUr5pjKpRnxYzAi
+
+App token:
+1836506863280843|iVaV9XzUlmIJ8iX7oUI6nF7Q_oM
+
+login url
+"https://www.facebook.com/dialog/oauth?client_id=2130968579&redirect_uri=https%3A%2F%2Fwww.facebook.com%2Fconnect%2Flogin_success.html&response_type=token&display=touch&scope=user_about_me%2Cread_stream%2Cpublish_stream"
+"https://www.facebook.com/v2.8/dialog/oauth?client_id=2130968579&redirect_uri=https%3A%2F%2Fwww.facebook.com/connect/login_success.html&response_type=token&scope=user_about_me,read_stream,publish_stream"
+"https://www.facebook.com/v2.8/dialog/oauth?client_id=2130968579&redirect_uri=https%3A%2F%2Fwww.facebook.com%2Fconnect%2Flogin_success.html&response_type=token&scope=user_about_me%2Cread_stream%2Cpublish_stream"

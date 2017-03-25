@@ -1,10 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="AndroidApp.AndroidApp" android:versionCode="1" android:versionName="1.0">
-  <uses-sdk android:minSdkVersion="16" />
-  <application android:label="AndroidApp"
-              android:debuggable="true"
-             android:theme="@android:style/Theme.Light"
->
-   
-  </application>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="AndroidApp.AndroidApp" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="15" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<application android:label="AndroidApp" android:debuggable="true" android:theme="@android:style/Theme.Light" android:icon="@drawable/Icon">
+		<meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id" />
+	</application>
 </manifest>

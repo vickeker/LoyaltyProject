@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("AndroidApp.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("FacebookSample.Android.Resource", IsApplication=true)]
 
-namespace AndroidApp
+namespace FacebookSample.Android
 {
 	
 	
@@ -26,7 +26,7 @@ namespace AndroidApp
 		
 		public static void UpdateIdValues()
 		{
-			global::FacebookMonoDroid.Resource.String.library_name = global::AndroidApp.Resource.String.library_name;
+			global::FacebookMonoDroid.Resource.String.library_name = global::FacebookSample.Android.Resource.String.library_name;
 		}
 		
 		public partial class Attribute
@@ -61,53 +61,29 @@ namespace AndroidApp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050009
-			public const int TVUserName = 2131034121;
-			
-			// aapt resource value: 0x7f050002
-			public const int autocomp_barname = 2131034114;
+			// aapt resource value: 0x7f050007
+			public const int btnFQLSample = 2131034119;
 			
 			// aapt resource value: 0x7f050006
-			public const int barresult = 2131034118;
+			public const int btnGraphSample = 2131034118;
 			
-			// aapt resource value: 0x7f05000d
-			public const int et_password = 2131034125;
-			
-			// aapt resource value: 0x7f05000b
-			public const int et_username = 2131034123;
-			
-			// aapt resource value: 0x7f050005
-			public const int framelist = 2131034117;
-			
-			// aapt resource value: 0x7f050007
-			public const int framemap = 2131034119;
-			
-			// aapt resource value: 0x7f050008
-			public const int imgUser = 2131034120;
-			
-			// aapt resource value: 0x7f05000e
-			public const int login = 2131034126;
-			
-			// aapt resource value: 0x7f050003
-			public const int search = 2131034115;
-			
-			// aapt resource value: 0x7f050000
-			public const int tv_bar = 2131034112;
-			
-			// aapt resource value: 0x7f05000f
-			public const int tv_errorauth = 2131034127;
+			// aapt resource value: 0x7f050002
+			public const int btnLogin = 2131034114;
 			
 			// aapt resource value: 0x7f050004
-			public const int tv_errorbar = 2131034116;
+			public const int btnPostWall = 2131034116;
 			
-			// aapt resource value: 0x7f05000c
-			public const int tv_password = 2131034124;
+			// aapt resource value: 0x7f050005
+			public const int btnRemovePost = 2131034117;
 			
-			// aapt resource value: 0x7f05000a
-			public const int tv_username = 2131034122;
+			// aapt resource value: 0x7f050000
+			public const int imgUser = 2131034112;
+			
+			// aapt resource value: 0x7f050003
+			public const int linearLayout1 = 2131034115;
 			
 			// aapt resource value: 0x7f050001
-			public const int tvusername = 2131034113;
+			public const int txtvUserName = 2131034113;
 			
 			static Id()
 			{
@@ -123,13 +99,7 @@ namespace AndroidApp
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int barpage = 2130903040;
-			
-			// aapt resource value: 0x7f030001
-			public const int barsearch = 2130903041;
-			
-			// aapt resource value: 0x7f030002
-			public const int Main = 2130903042;
+			public const int Main = 2130903040;
 			
 			static Layout()
 			{
@@ -144,17 +114,11 @@ namespace AndroidApp
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040004
-			public const int ApplicationName = 2130968580;
+			// aapt resource value: 0x7f040002
+			public const int app_name = 2130968578;
 			
 			// aapt resource value: 0x7f040001
-			public const int Hello = 2130968577;
-			
-			// aapt resource value: 0x7f040002
-			public const int facebookLogin = 2130968578;
-			
-			// aapt resource value: 0x7f040003
-			public const int facebook_app_id = 2130968579;
+			public const int facebookLogin = 2130968577;
 			
 			// aapt resource value: 0x7f040000
 			public const int library_name = 2130968576;
